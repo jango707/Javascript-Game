@@ -3,25 +3,39 @@
 <head>
   <link rel="stylesheet" href="style.css">
 
-<title>Page Title</title>
+<title>JANGO's Game</title>
+
+<style>
+    #gameScreen{
+        border: 2px solid darkslategray;
+        padding: 0;
+        margin: auto;
+        display: block;
+        width: 800px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        
+    }
+    body{
+        background-color: wheat;
+    }
+</style>
 </head>
 <body>
 
-  <h1 class="title"> Hello!</h1>
+  <canvas id="gameScreen"></canvas>
 
-  <button class="addListBtn"> Click</button>
 
-  <ul class="name-list">
-    <li>Jang</li>
-    <li>Jango</li>
-    <li>JangoQuarantino</li>
-  </ul>
-
-  <input class="list-input" type="text"/>
 </body>
 
 
-<script src="./app.js"> </script>
+<script type="module" src="./game.js"> </script>
+
 
 
 </html>
