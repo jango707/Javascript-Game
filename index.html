@@ -24,9 +24,16 @@
     body{
         background-color: wheat;
     }
+    img{
+      display: none;
+    }
 </style>
 </head>
 <body>
+  
+  <div id="score" style="padding: 10px; font-family: 'Arial';font-size: 40px;">Score: </div> 
+  <div id="death" style="color:firebrick;display: none;text-align: center; padding: 200px; font-family: 'Arial';font-size: 30px;">You died</div> 
+  <img id="hotPat" src="img/pat.png">
 
   <canvas id="gameScreen"></canvas>
 
